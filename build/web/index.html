@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+		<title>Bootstrap</title>
+
+		<!-- Bootstrap Framework CSS -->
+		<link href="./libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		
+	</head>
+	<body>		
+				<h2>Formulario</h2>
+				<br>
+				<div class="row">
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+						<div class="form-group">
+							<label for="inputNombre" class="control-label">Nombre:</label>
+							<input type="text" id="inputNombre" class="form-control" placeholder="Ricardo" />
+						</div>
+					</div>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+						<div class="form-group">
+							<label for="inputApellidos" class="control-label">Apellido:</label>
+							<input type="text" id="inputApellidos" class="form-control" placeholder="Castro" />
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<label class="control-label">Sexo:</label>
+						<div class="checkbox">
+							<label class="radio-inline">
+								<input type="radio" name="radioSexo" id="radioFemenino" value="F"> Femenino
+							</label>
+							<label class="radio-inline">
+								<input type="radio" name="radioSexo" id="radioMasculino" value="M"> Masculino
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+						<div class="form-group">
+							<label for="selectNivel" class="control-label">Nivel escolar:</label>
+							<select id="selectNivel" class="form-control">
+								<option value="1" selected>Nivel Superior</option>
+								<option value="2">Nivel Medio superior</option>
+								<option value="3">Nivel Básico</option>
+								<option value="4">Nivel Primaria</option>
+							</select>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-12 col-md-12 col-lg-12">
+						<div class="form-group">
+							<label for="textPerfil" class="control-label">Perfil:</label>
+							<textarea id="textPerfil" rows="3" class="form-control"></textarea>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-12 col-md-12 col-lg-12">
+                                                <button type="button" class="btn btn-danger">Enviar</button>
+					</div>
+				</div>
+
+	</body>
+</html>
